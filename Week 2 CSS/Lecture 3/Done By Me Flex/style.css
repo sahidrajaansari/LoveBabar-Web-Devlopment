@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* align-items: center;
+    align-content:baseline; */
+    height: 400px;
+    border: 2px solid black;
+}
+.box{
+    flex-basis: 25%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+/* #box1{
+    flex-grow: 1;
+} */
+#box2{
+    flex-shrink: 10;
+    /* flex-shrink: 3; */
+}
